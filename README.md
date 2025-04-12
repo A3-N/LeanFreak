@@ -23,7 +23,7 @@ LFOS (LeanFreak Operating System)
 ---
 
 # Tidbits
-1. Changed `xz (-9e)` compression to `zstd (-3)` for SUPA-FAST boot for the ISO. Tradeoff, ISO size might be slightly larger.
+1. Changed compression to `lz4` for SUPA-FAST boot for the ISO. Tradeoff, ISO size might be slightly larger.
 
 ---
 
@@ -31,10 +31,11 @@ LFOS (LeanFreak Operating System)
 
 ## ISO Creation
 - airootfs/etc/mkinitcpio.conf.d\archiso.conf - Compression Changed for faster boot on ISO
+- profiledef.sh - Compression Changed for faster boot on ISO 
 - airootfs/etc/modprobe.d/broadcom-wl.conf - Added broadcom-wl package for specific Broadcom chipsets that either don’t work at all with open-source drivers Or work like dog (unstable, flaky connections)
 
 ## BIOS & UEFI
 - syslinux/ - added more to this like memtest86+, hdt, Existing/Reboot/Poweroff.
 - syslinux/ - supports BIOS El Torito and BIOS Legacy (MBR).
 - Removed Support for UEFI 32-bit.
-
+- efiboot/ && grub/ - Added UEFI support with grub. (In the future I would like to remove syslinux for full grub, but GRUB BIOS boot modes are a pain.) 

@@ -1,6 +1,10 @@
 base
 broadcom-wl
 cloud-init
+grub
+efibootmgr
+dosfstools
+mtools
 hyperv
 linux
 mkinitcpio
