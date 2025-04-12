@@ -1,5 +1,5 @@
 # LeanFreak
-LF OS (LeanFreak Operating System)
+LFOS (LeanFreak Operating System)
 
 ## TODO_Baseline_Setup
 - [x] Baseline working image
