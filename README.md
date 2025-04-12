@@ -28,4 +28,6 @@ LF OS (LeanFreak Operating System)
 ---
 
 # TRCH - baseline
-- /airootfs/etc/mkinitcpio.conf.d\archiso.conf - Compression Changed for faster boot on ISO
+- airootfs/etc/mkinitcpio.conf.d\archiso.conf - Compression Changed for faster boot on ISO
+- airootfs/etc/modprobe.d/broadcom-wl.conf - Added broadcom-wl package for specific Broadcom chipsets that either don’t work at all with open-source drivers Or work like dog (unstable, flaky connections)
+
