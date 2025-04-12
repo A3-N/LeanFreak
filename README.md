@@ -28,6 +28,13 @@ LFOS (LeanFreak Operating System)
 ---
 
 # TRCH - baseline
+
+## ISO Creation
 - airootfs/etc/mkinitcpio.conf.d\archiso.conf - Compression Changed for faster boot on ISO
 - airootfs/etc/modprobe.d/broadcom-wl.conf - Added broadcom-wl package for specific Broadcom chipsets that either don’t work at all with open-source drivers Or work like dog (unstable, flaky connections)
+
+## BIOS & UEFI
+- syslinux/ - added more to this like memtest86+, hdt, Existing/Reboot/Poweroff.
+- syslinux/ - supports BIOS El Torito and BIOS Legacy (MBR).
+- Removed Support for UEFI 32-bit.
 

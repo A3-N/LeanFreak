@@ -1,4 +1,5 @@
 base
+broadcom-wl
 cloud-init
 hyperv
 linux
