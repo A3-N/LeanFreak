@@ -43,7 +43,8 @@ LFOS (LeanFreak Operating System)
 
 ## Networking
 - Added networkd to ISO boot and stub resolver.
-- Added wireless capabilities.
+- Added wireless capabilities. 
+- - Additional configs for wwan and wlan
 
 ## Symlinks and systemd
 - Realised my symlinks keep breaking?
@@ -53,10 +54,6 @@ LFOS (LeanFreak Operating System)
 - - - networkd
 - - - resolved
 - - - iwd
-
-## Install
-- Direct boot to TTY1/autologin
-- Small custom-pretty-ness
 
 
 ```sh
@@ -73,4 +70,7 @@ ln -s /usr/lib/systemd/system/systemd-resolved.service airootfs/etc/systemd/syst
 ln -s /usr/lib/systemd/system/iwd.service airootfs/etc/systemd/system/multi-user.target.wants/iwd.service
 ```
 
-## HI HI
+## Install
+- Direct boot to TTY1/autologin
+- Small custom-pretty-ness
+
