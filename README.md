@@ -19,6 +19,7 @@ LFOS (LeanFreak Operating System)
 - [ ] Services, like Samba is a giveaway
 - [ ] Kernel metadata
 - [ ] NTP - dont point to linux
+- [ ] Integrity checksum core install
 
 ---
 
