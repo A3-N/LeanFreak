@@ -40,3 +40,32 @@ LFOS (LeanFreak Operating System)
 - syslinux/ - supports BIOS El Torito and BIOS Legacy (MBR).
 - Removed Support for UEFI 32-bit.
 - efiboot/ && grub/ - Added UEFI support with grub. (In the future I would like to remove syslinux for full grub, but GRUB BIOS boot modes are a pain.) 
+
+## Networking
+- Added networkd to ISO boot and stub resolver.
+- Added wireless capabilities.
+
+## Symlinks and systemd
+- Realised my symlinks keep breaking?
+- - resolv.conf
+- - localtime
+- - systemd
+- - - networkd
+- - - resolved
+
+
+```sh
+rm -f airootfs/etc/resolv.conf
+ln -sf /run/systemd/resolve/stub-resolv.conf airootfs/etc/resolv.conf
+ln -sf /usr/share/zoneinfo/UTC airootfs/etc/localtime
+
+rm airootfs/etc/systemd/system/multi-user.target.wants/systemd-networkd.service
+ln -s /usr/lib/systemd/system/systemd-networkd.service airootfs/etc/systemd/system/multi-user.target.wants/systemd-networkd.service
+
+rm airootfs/etc/systemd/system/multi-user.target.wants/systemd-resolved.service
+ln -s /usr/lib/systemd/system/systemd-resolved.service airootfs/etc/systemd/system/multi-user.target.wants/systemd-resolved.service
+
+ln -s /usr/lib/systemd/system/iwd.service airootfs/etc/systemd/system/multi-user.target.wants/iwd.service
+```
+
+## HI HI
