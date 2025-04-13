@@ -18,7 +18,9 @@ pv
 qemu-guest-agent
 syslinux
 systemd-resolvconf
+terminus-font
 vim
 virtualbox-guest-utils-nox
 wpa_supplicant
 dosfstools
+fish

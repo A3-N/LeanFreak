@@ -52,6 +52,11 @@ LFOS (LeanFreak Operating System)
 - - systemd
 - - - networkd
 - - - resolved
+- - - iwd
+
+## Install
+- Direct boot to TTY1/autologin
+- Small custom-pretty-ness
 
 
 ```sh
