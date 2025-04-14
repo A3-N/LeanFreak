@@ -3,7 +3,7 @@ LFOS (LeanFreak Operating System)
 
 ## TODO_Baseline_Setup
 - [x] Baseline working image
-- [ ] Reword/Move/Add Misc items
+- [x] Reword/Move/Add Misc items
 
 ## TODO_Baseline_Install_Script
 - [ ] Review Archinstall
@@ -20,6 +20,8 @@ LFOS (LeanFreak Operating System)
 - [ ] Kernel metadata
 - [ ] NTP - dont point to linux
 - [ ] Integrity checksum core install
+
+_Might move TODO_TBD to LFOS-packages._
 
 ---
 
@@ -73,4 +75,4 @@ ln -s /usr/lib/systemd/system/iwd.service airootfs/etc/systemd/system/multi-user
 ## Install
 - Direct boot to TTY1/autologin
 - Small custom-pretty-ness
-
+- Added custom repo for install script
