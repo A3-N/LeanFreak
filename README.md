@@ -1,6 +1,10 @@
 # LeanFreak
 LFOS (LeanFreak Operating System)
 
+
+![mkarchiso demo](img/LeanPeak.gif)
+
+
 ## TODO_Baseline_Setup
 - [x] Baseline working image
 - [x] Reword/Move/Add Misc items
@@ -22,6 +26,10 @@ LFOS (LeanFreak Operating System)
 - [ ] Integrity checksum core install
 
 _Might move TODO_TBD to LFOS-packages._
+
+
+![mkarchiso demo](img/mkarchiso.gif)
+
 
 ---
 
