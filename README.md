@@ -33,8 +33,9 @@ _Might move TODO_TBD to LFOS-packages._
 
 ---
 
-# Tidbits
-1. Changed compression to `lz4` for SUPA-FAST boot for the ISO. Tradeoff, ISO size might be slightly larger.
+## Package Repository
+
+[LFOS-packages](https://github.com/Donnager-class/LFOS-packages).
 
 ---
 
