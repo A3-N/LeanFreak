@@ -1,9 +1,9 @@
 # LeanFreak
 LFOS (LeanFreak Operating System)
 
-
-![mkarchiso demo](img/LeanPeak.gif)
-
+<p align="center">
+  <img src="img/LeanPeak.gif" alt="mkarchiso demo" width="70%">
+</p>
 
 ## TODO_Baseline_Setup
 - [x] Baseline working image
@@ -27,9 +27,9 @@ LFOS (LeanFreak Operating System)
 
 _Might move TODO_TBD to LFOS-packages._
 
-
-![mkarchiso demo](img/mkarchiso.gif)
-
+<p align="center">
+  <img src="img/mkarchiso.gif" alt="mkarchiso demo" width="70%">
+</p>
 
 ---
 
