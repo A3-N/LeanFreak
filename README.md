@@ -18,15 +18,6 @@ LFOS (LeanFreak Operating System)
 - [ ] TCP/IP Stack Fingerprinting sysctl - Change TTL to match windows
 - [ ] Link Repo's, dont install ALL tools - not "kali bloat OS"
 
-## TODO_TBD
-- [ ] avahi-daemon
-- [ ] Services, like Samba is a giveaway
-- [ ] Kernel metadata
-- [ ] NTP - dont point to linux
-- [ ] Integrity checksum core install
-
-_Might move TODO_TBD to LFOS-packages._
-
 <p align="center">
   <img src="img/mkarchiso.gif" alt="mkarchiso demo" width="70%">
 </p>
@@ -34,6 +25,13 @@ _Might move TODO_TBD to LFOS-packages._
 ---
 
 ## Package Repository
+
+## TODO_TBD
+- [ ] avahi-daemon
+- [ ] Services, like Samba is a giveaway
+- [ ] Kernel metadata
+- [ ] NTP - dont point to linux
+- [ ] Integrity checksum core install
 
 [LFOS-packages](https://github.com/A3-N/LFOS-packages).
 
